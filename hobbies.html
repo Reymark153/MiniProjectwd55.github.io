@@ -18,25 +18,33 @@
     p {
       text-align: justify;
       text-indent: 20px;
-    }  
+    }
+    .sizing img {
+      height: 300px;
+    }
+    .sizing1 img {
+      height: 300px;
+      width: 100%;
+    }
     </style>
   </head>
 <body>
+
 <!-- header -->
-<div class="container">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row sizing">
     <div class="col-md-4 p-0">
-      <img src="personal.jpg" class="img-fluid w-100 h-100" alt="...">
+      <img src="personal.jpg" class="img-fluid w-100" alt="...">
     </div>
     <div class="col-md-8 p-0">
-      <img src="headerblog.jpg" class="img-fluid w-100 h-100" alt="...">
+      <img src="headerblog.jpg" class="img-fluid w-100 sizing" alt="...">
     </div>
   </div>
 </div>
 
 <!-- Navigation -->
-<div class="position-sticky sticky-md-top top-0">
-  <div class="container fw-normal bg-secondary">
+<div class="position-sticky sticky-md-top top-0 fixed-top">
+  <div class="container-fluid fw-normal bg-secondary">
     <div class="row">
       <div class="col-md-12 p-3 fs-5 text-light">
         <ul class="nav nav-tabs justify-content-center border border-0">
@@ -73,23 +81,26 @@
     </div>
   </div>
 </div>
+
 <!-- content -->
-<div class="container bg-light fs-5">
-  <div class="row pt-5">
+<div class="container-fluid bg-light fs-5">
+  <div class="row p-5">
     <div class="col-md-12" id="c1">
       <p><strong>A hobby</strong> is considered to be a regular activity that is done for enjoyment, typically during one's leisure time. Hobbies include collecting themed items and objects, engaging in creative and artistic pursuits, playing sports, or pursuing other amusements. Participation in hobbies encourages acquiring substantial skills and knowledge in that area. A list of hobbies changes with renewed interests and developing fashions, making it diverse and lengthy. Hobbies tend to follow trends in society, for example stamp collecting was popular during the nineteenth and twentieth centuries as postal systems were the main means of communication, while video games are more popular nowadays following technological advances. The advancing production and technology of the nineteenth century provided workers with more leisure time to engage in hobbies. Because of this, the efforts of people investing in hobbies has increased with time.</p>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <h1 class="text-center">Computer Games</h1>
-        <p>Computer games are programs that enable a player to interact with a virtual game environment for entertainment and fun. There are many types of computer games available, ranging from traditional card games to more advanced video games such as role playing games and adventure games.</p>
-      </div>
+  </div>
+  <div class="row px-5">
+    <div class="col-md-12">
+      <h1 class="text-center">Computer Games</h1>
+      <p>Computer games are programs that enable a player to interact with a virtual game environment for entertainment and fun. There are many types of computer games available, ranging from traditional card games to more advanced video games such as role playing games and adventure games.</p>
     </div>
+  </div>
+  <div class="row sizing1 px-5">
     <div class="col-md-4">
-      <img src="play.jpg" class="rounded w-100 h-100" alt="...">
+      <img src="play.jpg" class="img-fluid rounded" alt="...">
     </div>
     <div class="col-md-8 p-3">
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion accordion-flush shadow-lg" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -141,9 +152,9 @@
           </div>
         </div>
       </div>      
-    </div>    
-  </div>
-  <div class="row pt-5">
+    </div>
+  </div>    
+  <div class="row p-5">
     <div class="col-md-12">
       <div class="row justify-content-center">
         <div class="col-md-12">
@@ -152,11 +163,11 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <img src="read.jfif" class="rounded w-100 h-100" alt="...">
+    <div class="col-md-4 sizing1">
+      <img src="read.jfif" class="img-fluid rounded" alt="...">
     </div>
     <div class="col-md-8 p-3">
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion accordion-flush shadow-lg" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
@@ -229,7 +240,7 @@
       </div>      
     </div>    
   </div>
-  <div class="row pt-5">
+  <div class="row p-5">
     <div class="col-md-12">
       <div class="row justify-content-center">
         <div class="col-md-12">
@@ -238,11 +249,11 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <img src="driving.jpg" class="rounded w-100 h-100" alt="...">
+    <div class="col-md-4 sizing1">
+      <img src="driving.jpg" class="img-fluid rounded" alt="...">
     </div>
     <div class="col-md-8 p-3">
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion accordion-flush shadow-lg" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingEleven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
@@ -307,12 +318,12 @@
 </div>
 
 <!-- Footer -->
-<div class="container border fs-6 text-light bg-secondary">
+<div class="container-fluid border fs-6 text-light bg-secondary">
   <div class="row">
     <div class="col-md-6 border-end border-3">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h4 class="fw-bolder">Contact Me</h4>
+          <h4 class="fw-bolder">Get in Touch</h4>
           <a href="#"><i class="bi bi-telephone-plus p-2" style="font-size: 2rem; color: cornflowerblue;"></i></a>9087717084<br>
           <a href="#"><i class="bi bi-envelope p-2" style="font-size: 2rem; color: #FF7F50;"></i></a>Dagongdong.reymark410@gmail.com<br>
           <a href="#"><i class="bi bi-geo-alt p-2" style="font-size: 2rem; color: red;"></i></a>Abangan Compound Inayawan Cebu City 6000<br>
@@ -322,36 +333,42 @@
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="text-center fw-bolder">Follow me on</h4>
+          <h4 class="text-center fw-bolder">Subscribe Now!</h4>
           <div class="row text-center justify-content-center">
             <div class="col-md-4">
-              <a href="#"><i class="bi bi-facebook" style="font-size: 2rem; color: #1E90FF;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Facebook</h6></a>
-            </div>
-            <div class="col-md-4 border-start border-3">
-              <a href="#"><i class="bi bi-youtube" style="font-size: 2rem; color: #DC143C;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>YouTube</h6></a>
+              Subscribe us & receive a notification & update in your inbox directly.
             </div>
           </div>
           <div class="row text-center justify-content-center">
-            <div class="col-md-4 border-top border-3">
-              <a href="#"><i class="bi bi-tiktok" style="font-size: 2rem; color: black;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Tiktok</h6></a>                    
-            </div>
-            <div class="col-md-4 border-start border-3 border-top">
-              <a href="#"><i class="bi bi-twitter" style="font-size: 2rem; color: #00BFFF;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Twitter</h6></a>
+            <div class="col-md-8 border-3 text-dark">
+              <div class="input-group mb-5">
+                <span class="input-group-text"><i class="bi bi-envelope-at-fill px-2" style="font-size: 1rem; color: red;"></i></span>
+                <div class="form-floating">
+                  <input type="text" class="form-control w-100" id="floatingInputGroup1" placeholder="email">
+                  <label for="floatingInputGroup1">Email</label>
+                </div>
+              </div>                    
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="row justify-content-center border-top bg-secondary">
+    <div class="col-md-3">
+      <div class="row justify-content-center">
+        <div class="col-md-10 ps-5 text-light">
+          <a href="#"><i class="d-inline bi bi-facebook p-3" style="font-size: 2rem; color: blue;"></i></a>
+          <a href="#"><i class="d-inline bi bi-youtube p-3" style="font-size: 2rem; color: #DC143C;"></i></a>
+          <a href="#"><i class="d-inline bi bi-tiktok p-3" style="font-size: 2rem; color: black;"></i></a>
+          <a href="#"><i class="d-inline bi bi-twitter p-3" style="font-size: 2rem; color: #00BFFF;"></i></a>
+          <h4 class="text-light">@Copyright All rights reserved</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-
-
-    
+ 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</bod
+</body>
+</html>

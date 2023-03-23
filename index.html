@@ -20,31 +20,35 @@
       text-align: justify;
       text-indent: 20px;
     }
-    .row img {
+    .sizing img {
       height: 300px;
     }
+    .sizing1 img {
+      height: 300px;
+    } 
     .carousel-inner img {
-      height: 600px;
+      height: 700px;
       width: 100%;
     } 
     </style>
   </head>
 <body>
+
 <!-- header -->
-<div class="container">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row sizing">
     <div class="col-md-4 p-0">
-      <img src="personal.jpg" class="img-fluid w-100 h-100" alt="...">
+      <img src="personal.jpg" class="img-fluid w-100" alt="...">
     </div>
     <div class="col-md-8 p-0">
-      <img src="headerblog.jpg" class="img-fluid w-100 h-100" alt="...">
+      <img src="headerblog.jpg" class="img-fluid w-100" alt="...">
     </div>
   </div>
 </div>
 
 <!-- Navigation -->
 <div class="position-sticky sticky-md-top top-0 fixed-top">
-  <div class="container fw-normal bg-secondary">
+  <div class="container-fluid fw-normal bg-secondary">
     <div class="row">
       <div class="col-md-12 p-3 fs-5 text-light">
         <ul class="nav nav-tabs justify-content-center border-0">
@@ -76,12 +80,12 @@
 </div>
 
 <!-- Content -->
-<div class="container bg-light pb-5 fs-5">
-  <div class="row justify-content-center">
+<div class="container-fluid bg-light pb-5 fs-5">
+  <div class="row justify-content-center p-3">
     <div class="col-md-2 bg-secondary opacity-75">
     </div>
-    <div class="col-md-8 p-5 w3-container w3-center w3-animate-top">
-      <h1 class="fw-bolder display-3">Hi! I AM<br> Reymark Dagongdong</h1>
+    <div class="col-md-8 p-5 w3-container w3-center w3-animate-top border-top">
+      <h1 class="fw-bolder display-3"><button type="button" class="btn-close" aria-label="Close"></button>Hi! I AM<button type="button" class="btn-close" aria-label="Close"></button><br> Reymark Dagongdong</h1>
       <h5 class="lh-lg" style="text-align: justify; text-indent: 20px;">Welcome! I am a kodego student and this is my first miniProject Website using HTML, CSS and Bootstraps. I will show you my Personal Blog. Feel free to Explore My WebsiteLorem Ipsum is simply dummy text of the printing and typesetting industry.<a href="#">EXPLORE ME!</a></h5>
     </div>
     <div class="col-md-2 bg-secondary opacity-75">
@@ -120,7 +124,7 @@
       <h1 class="text-center fw-bolder">Create Your Own Beautiful Blog</h1>
       <p class="lh-base">Personal blogs are blogs written by anyone that enjoys sharing their ideas and thoughts with an online community. So you will get personal blogs of all shapes and sizes and in most niches. Many popular blogs are inspirational. More than a few of them are really funny.</p>
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center sizing2">
           <a href="https://kodego.ph/" class="text-decoration-none text-black"><h1 class="fw-bolder">Learn to Code with</h1></a>
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -139,25 +143,25 @@
       </div>
     </div>
   </div>
-  <div class="row justify-content-center pt-3">
-    <div class="card p-0" style="width: 25rem;">
-      <img src="code.jpg" class="img-fluid" alt="...">
+  <div class="row justify-content-center pt-3 sizing1">
+    <div class="card p-0" style="width: 30rem;">
+      <img src="code.jpg" class="img-fluid w-100" alt="...">
       <div class="card-body">
         <h2 class="card-title fw-semibold">Code</h2>
         <p>Programming languages provide the rules for building websites, apps, and other computer-based technologies. Each programming language helps humans accurately communicate with machines.</p><br>
         <a href="#" class="btn btn-primary ms-5 w-75">Learn More</a>
       </div>
     </div>
-    <div class="card p-0" style="width: 25rem;">
-      <img src="design.jpeg" class="img-fluid border-bottom" alt="...">
+    <div class="card p-0 mx-5" style="width: 30rem;">
+      <img src="design.jpeg" class="img-fluid border-bottom w-100" alt="...">
       <div class="card-body">
         <h2 class="card-title fw-semibold">Design</h2>
         <p>create, fashion, execute, or construct according to plan : devise, contrive. design a system for tracking inventory. : to conceive and plan out in the mind. he designed the perfect crime. : to have as a purpose : intend</p>
         <a href="#" class="btn btn-primary ms-5 w-75">Learn More</a>
       </div>
     </div>
-    <div class="card p-0" style="width: 25rem;">
-      <img src="ideas.jpg" class="img-fluid" alt="...">
+    <div class="card p-0" style="width: 30rem;">
+      <img src="ideas.jpg" class="img-fluid w-100" alt="...">
       <div class="card-body">
         <h2 class="card-title fw-semibold">Ideas</h2>
         <p>a plan, thought, or suggestion, especially about what to do in a particular situation It would be a good idea to call before we leave. idea (of something/of doing something) I like the idea of living on a boat.</p>
@@ -168,12 +172,12 @@
 </div>
 
 <!-- Footer -->
-<div class="container border fs-6 text-light bg-secondary">
+<div class="container-fluid border fs-6 text-light bg-secondary">
   <div class="row">
     <div class="col-md-6 border-end border-3">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h4 class="fw-bolder">Contact Me</h4>
+          <h4 class="fw-bolder">Get in Touch</h4>
           <a href="#"><i class="bi bi-telephone-plus p-2" style="font-size: 2rem; color: cornflowerblue;"></i></a>9087717084<br>
           <a href="#"><i class="bi bi-envelope p-2" style="font-size: 2rem; color: #FF7F50;"></i></a>Dagongdong.reymark410@gmail.com<br>
           <a href="#"><i class="bi bi-geo-alt p-2" style="font-size: 2rem; color: red;"></i></a>Abangan Compound Inayawan Cebu City 6000<br>
@@ -183,27 +187,36 @@
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="text-center fw-bolder">Follow me on</h4>
+          <h4 class="text-center fw-bolder">Subscribe Now!</h4>
           <div class="row text-center justify-content-center">
             <div class="col-md-4">
-              <a href="#"><i class="bi bi-facebook" style="font-size: 2rem; color: #1E90FF;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Facebook</h6></a>
-            </div>
-            <div class="col-md-4 border-start border-3">
-              <a href="#"><i class="bi bi-youtube" style="font-size: 2rem; color: #DC143C;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>YouTube</h6></a>
+              Subscribe us & receive a notification & update in your inbox directly.
             </div>
           </div>
           <div class="row text-center justify-content-center">
-            <div class="col-md-4 border-top border-3">
-              <a href="#"><i class="bi bi-tiktok" style="font-size: 2rem; color: black;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Tiktok</h6></a>                    
-            </div>
-            <div class="col-md-4 border-start border-3 border-top">
-              <a href="#"><i class="bi bi-twitter" style="font-size: 2rem; color: #00BFFF;"></i></a>
-              <a href="#" class="text-decoration-none text-reset"><h6>Twitter</h6></a>
+            <div class="col-md-8 border-3 text-dark">
+              <div class="input-group mb-5">
+                <span class="input-group-text"><i class="bi bi-envelope-at-fill px-2" style="font-size: 1rem; color: red;"></i></span>
+                <div class="form-floating">
+                  <input type="text" class="form-control w-100" id="floatingInputGroup1" placeholder="email">
+                  <label for="floatingInputGroup1">Email</label>
+                </div>
+              </div>                    
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center border-top bg-secondary">
+    <div class="col-md-3">
+      <div class="row justify-content-center">
+        <div class="col-md-10 ps-5 text-light">
+          <a href="#"><i class="d-inline bi bi-facebook p-3" style="font-size: 2rem; color: blue;"></i></a>
+          <a href="#"><i class="d-inline bi bi-youtube p-3" style="font-size: 2rem; color: #DC143C;"></i></a>
+          <a href="#"><i class="d-inline bi bi-tiktok p-3" style="font-size: 2rem; color: black;"></i></a>
+          <a href="#"><i class="d-inline bi bi-twitter p-3" style="font-size: 2rem; color: #00BFFF;"></i></a>
+          <h4 class="text-light">@Copyright All rights reserved</h4>
         </div>
       </div>
     </div>
